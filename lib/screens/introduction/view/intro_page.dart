@@ -26,7 +26,7 @@ class IntroductionPage extends StatelessWidget {
                   CommonSize(height: 20.h), // Space between elements
                   _buildTextContent(),
                   CommonSize(height: 20.h), // Space between elements
-                  moreAboutMeButton(),
+                  // moreAboutMeButton(),
                 ],
               )
               : Row(
@@ -39,7 +39,7 @@ class IntroductionPage extends StatelessWidget {
                       children: [
                         _buildTextContent(),
                         CommonSize(height: 20.h),
-                        moreAboutMeButton(),
+                        // moreAboutMeButton(),
                       ],
                     ),
                     _buildProfileImage(context),
